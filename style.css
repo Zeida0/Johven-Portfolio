@@ -1,0 +1,32 @@
+header {
+  background: #000;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  padding: 10px 30px;
+  border-bottom: 1px solid #444;
+  position: relative;
+}
+
+header img {
+  position: absolute;
+  left: 30px; /* Logo sa kaliwa */
+  width: 50px;
+  border-radius: 50%;
+}
+
+nav {
+  display: flex;
+  gap: 30px; /* spacing between links */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
